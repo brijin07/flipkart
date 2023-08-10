@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flipkart</title>
+   <link rel="icon" type="image/x-icon" href="https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/flipkart-512.png">
+  <link rel="stylesheet" href="style.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- navbar -->
+  <div class="container-fluid" style="position: sticky; top: 0; z-index: 10;">
+    <div class="nav-bar row bg-primary">
+      <div class="nav-half1 col-7">
+
+        <div class="icon-nav">
+          <img src="./images/icon-nav.png" alt="" style="width: 80px;">
+          <a href="">
+            <p>Explore <span style="color: rgb(240, 198, 14);">plus <img src="./images/plus_aef861.png" alt=""
+                  style="width: 10px;"></span></p>
+          </a>
+        </div>
+        <div class="search-barr ps-3">
+
+          <input type="search" placeholder="search for product brand or more"
+            style="width:450px; height:35px; border: none; font-size: small; ">
+          <a href=""><i class="fa-solid fa-magnifying-glass" style="color: #083fbf;"></i>
+          </a>
+        </div>
+
+      </div>
+
+
+
+      <div class="nav-half2  col-5">
+        <a href=""> <input type="button" value="login"
+            style="width: 110px; height: 30px; border-radius: 1px; color: rgb(37, 37, 231); background-color: white; border: none;font-weight: 500; "></a>&nbsp&nbsp&nbsp&nbsp
+        <a href="" style="color: white; text-decoration: none;">Become a seller</a>&nbsp&nbsp&nbsp&nbsp
+
+        <div class="dropdown">
+          <a href="" class=" dropdown-toggle fw-bold " type="button" data-bs-toggle="dropdown"
+            style="color: white; text-decoration: none;">
+            More
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"></a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>&nbsp&nbsp&nbsp&nbsp
+
+        <a href="" style="color: white; text-decoration: none;"><i class="fa-solid fa-cart-shopping"
+            style="color: #e1e4ea;"></i>&nbsp Cart</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- navbar 2 -->
+  <div class="container-fluid">
+    <div class="row bg-light" style="height: 40px;  ">
+      <!-- 1 -->
+      <div class="col-12 px-5"
+        style="display: flex; justify-content: space-around; align-items: center; font-size: 14px; box-shadow: 0 1px 5px -3px #000; background-color: white; ">
+        <div class="dropdown ">
+          <a href="" class=" dropdown-toggle " type="button" data-bs-toggle="dropdown"
+            style=" text-decoration: none; font-weight: 500; ">
+            Electronics
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+
+        <div class="dropdown">
+          <a href="" class=" dropdown-toggle  " type="button" data-bs-toggle="dropdown"
+            style="text-decoration: none;font-weight: 500;">
+            TVs & Appliances
+
+          </a>
+
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+
+        <div class="dropdown">
+          <a href="" class=" dropdown-toggle  " type="button" data-bs-toggle="dropdown"
+            style=" text-decoration: none;font-weight: 500;">
+            Men
+
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+
+        <div class="dropdown">
+          <a href="" class=" dropdown-toggle  " type="button" data-bs-toggle="dropdown"
+            style=" text-decoration: none; font-weight: 500;">
+            Women
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+
+        <div class="dropdown">
+          <a href="" class=" dropdown-toggle " type="button" data-bs-toggle="dropdown"
+            style=" text-decoration: none; font-weight: 500;">
+            Baby & Kids
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+
+        <div class="dropdown">
+          <a href="" class=" dropdown-toggle  " type="button" data-bs-toggle="dropdown"
+            style=" text-decoration: none;font-weight: 500;  ">
+            Home & Furniture
+
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"></a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+
+        <div class="dropdown">
+          <a href="" class=" dropdown-toggle " type="button" data-bs-toggle="dropdown"
+            style=" text-decoration: none; font-weight: 500;">
+            Sports, Books & More
+
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+
+        <div class="dropdown">
+          <a href="" style=" text-decoration: none; font-weight: 500;">
+            Flights
+          </a>
+
+        </div>
+
+        <div class="dropdown">
+          <a href="" style=" text-decoration: none; font-weight: 500;">
+            Offer Zone
+          </a>
+
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- section 3 -->
+
+  <div class="row " style="margin: 1px;">
+<div class="container-fluid">
+      <h2 style="font-size: 19px;  margin-top: 10px;">Mobile Phones Big Saving Days August 2023</h2>
+  
+</div>    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="cardiv" style="background: url('./images/c1.webp'); background-size: cover;">
+      
+          </div>
+        </div>
+        <div class="carousel-item">
+<div class="cardiv" style="background: url('./images/d1.webp'); background-size: cover;">
+            
+          </div>
+      </div>
+        <div class="carousel-item">
+          <div class="cardiv" style="background: url('./images/d2.webp'); background-size: cover;" >
+            
+          </div>
+      </div>
+      </div>
+      <div class="manu">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+      </div>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+ 
+    <div class="container-fluid">
+    <div class="sec-img1 col-12 "></div>
+    <div class="sec-img2 col-12 "></div>
+
+
+    <div class="sec-img3 col-12 "></div>
+
+  </div>
+
+
+
+  <div class="row" style="height: 80px;">
+    <div class="col-6 ps-4" style="display: flex; justify-content: start ; align-items: center;">
+      <h3 style="font-size: 22px;">Realme smartphones</h3>
+    </div>
+    <div class="col-6 pe-4" style="display: flex; justify-content: end; align-items: center;">
+      <button type="button" class="btn btn-primary " style="width: 100px; border-radius: 2px;">View All</button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 " style="display: flex;">
+
+      <div class="card" id="card"
+        style="width: 14rem; display: flex; justify-content: center; align-items: center; position: relative;  ">
+        <div style="position: absolute; right: 10px; top: 0px;"> <i class="fa-regular fa-heart"></i></div>
+        <img src="./images/-original-imags487gaqqhcea.webp" class="card-img-top mt-2" alt="..."
+          style="height:150px; width: 8rem;">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;"><a href="" style="text-decoration: none;">realme C53
+              (Champion Gold, 64 GB)</a>
+            <br><span
+              style="background-color: rgb(12, 122, 12); border-radius: 2px; padding:0 5px; font-size: 13px; color: white;">4.6
+              <i class="fa-solid fa-star fa-xs" style="color: #fcfcfc;"></i></span><span
+              style="color: rgb(71, 71, 71);">(7,399)</span> <br>
+            ₹10,999 <span style="color:rgb(71, 71, 71); text-decoration: line-through;">₹12,9991</span><span
+              style="color: green;"> 5% off</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="card"
+        style="width: 14rem; display: flex; justify-content: center; align-items: center; position: relative; ">
+        <div style="position: absolute; right: 10px; top: 0px;"> <i class="fa-regular fa-heart"></i></div>
+        <img src="./images/-original-imagqxx2haehpjnf.webp" class="card-img-top mt-2" alt="..."
+          style="height:150px; width: 8rem;">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;"><a href="" style="text-decoration: none;">realme C53
+              (Champion Gold, 64 GB)</a>
+            <br><span
+              style="background-color: rgb(12, 122, 12); border-radius: 2px; padding:0 5px; font-size: 13px; color: white;">4.6
+              <i class="fa-solid fa-star fa-xs" style="color: #fcfcfc;"></i></span><span
+              style="color: rgb(71, 71, 71);">(7,399)</span> <br>
+            ₹10,999 <span style="color:rgb(71, 71, 71); text-decoration: line-through;">₹12,9991</span><span
+              style="color: green;"> 5% off</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="card"
+        style="width: 14rem; display: flex; justify-content: center; align-items: center; position: relative;  ">
+        <div style="position: absolute; right: 10px; top: 0px;"> <i class="fa-regular fa-heart"></i></div>
+        <img src="./images/-original-imags487ftf3g2s7.webp" class="card-img-top mt-2" alt="..."
+          style="height:150px; width: 8rem;">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;"><a href="" style="text-decoration: none;">realme C53
+              (Champion Gold, 64 GB)</a>
+            <br><span
+              style="background-color: rgb(12, 122, 12); border-radius: 2px; padding:0 5px; font-size: 13px; color: white;">4.6
+              <i class="fa-solid fa-star fa-xs" style="color: #fcfcfc;"></i></span><span
+              style="color: rgb(71, 71, 71);">(7,399)</span> <br>
+            ₹10,999 <span style="color:rgb(71, 71, 71); text-decoration: line-through;">₹12,9991</span><span
+              style="color: green;"> 5% off</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="card"
+        style="width: 14rem; display: flex; justify-content: center; align-items: center; position: relative;  ">
+        <div style="position: absolute; right: 10px; top: 0px;"> <i class="fa-regular fa-heart"></i></div>
+        <img src="./images/-original-imagp55frhhddu6n2.webp" class="card-img-top mt-2" alt="..."
+          style="height:150px; width: 8rem;">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;"><a href="" style="text-decoration: none;">realme C53
+              (Champion Gold, 64 GB)</a>
+            <br><span
+              style="background-color: rgb(12, 122, 12); border-radius: 2px; padding:0 5px; font-size: 13px; color: white;">4.6
+              <i class="fa-solid fa-star fa-xs" style="color: #fcfcfc;"></i></span><span
+              style="color: rgb(71, 71, 71);">(7,399)</span> <br>
+            ₹10,999 <span style="color:rgb(71, 71, 71); text-decoration: line-through;">₹12,9991</span><span
+              style="color: green;"> 5% off</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="card" id="hii"
+        style="width: 14rem; display: flex; justify-content: center; align-items: center; position: relative; border: 0;  ">
+        <div style="position: absolute; right: 10px; top: 0px;"> <i class="fa-regular fa-heart"></i></div>
+        <img src="./images/-original-imags487gaqqhcea.webp" class="card-img-top mt-2" alt="..."
+          style="height:150px; width: 8rem;">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;"><a href="" style="text-decoration: none;">realme C53
+              (Champion Gold, 64 GB)</a>
+            <br><span
+              style="background-color: rgb(12, 122, 12); border-radius: 2px; padding:0 5px; font-size: 13px; color: white;">4.6
+              <i class="fa-solid fa-star fa-xs" style="color: #fcfcfc;"></i></span><span
+              style="color: rgb(71, 71, 71);">(7,399)</span> <br>
+            ₹10,999 <span style="color:rgb(71, 71, 71); text-decoration: line-through;">₹12,9991</span><span
+              style="color: green;"> 5% off</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="card"
+        style="width: 14rem; display: flex; justify-content: center; align-items: center; position: relative;  ">
+        <div style="position: absolute; right: 10px; top: 0px;"> <i class="fa-regular fa-heart"></i></div>
+        <img src="./images/-original-imags487ftf3g2s7.webp" class="card-img-top mt-2" alt="..."
+          style="height:150px; width: 8rem;">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;"><a href="" style="text-decoration: none;">realme C53
+              (Champion Gold, 64 GB)</a>
+            <br><span
+              style="background-color: rgb(12, 122, 12); border-radius: 2px; padding:0 5px; font-size: 13px; color: white;">4.6
+              <i class="fa-solid fa-star fa-xs" style="color: #fcfcfc;"></i></span><span
+              style="color: rgb(71, 71, 71);">(7,399)</span> <br>
+            ₹10,999 <span style="color:rgb(71, 71, 71); text-decoration: line-through;">₹12,9991</span><span
+              style="color: green;"> 5% off</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" style="height: 80px;">
+    <div class="col-6 ps-4" style="display: flex; justify-content: start ; align-items: center;">
+      <h3 style="font-size: 22px;">Samsung smartphones</h3>
+    </div>
+    <div class="col-6 pe-4" style="display: flex; justify-content: end; align-items: center;">
+      <button type="button" class="btn btn-primary " style="width: 100px; border-radius: 2px;">View All</button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 " style="display: flex;">
+
+      <div class="card" id="card"
+        style="width: 14rem; display: flex; justify-content: center; align-items: center; position: relative;  ">
+        <div style="position: absolute; right: 10px; top: 0px;"> <i class="fa-regular fa-heart"></i></div>
+        <img src="./images/guru-1200-gt-e1200zkyins-samsung-original-imagfwzx5z9ry8ehs2s4.webp"
+          class="card-img-top mt-2" alt="..." style="height:150px; width: 5rem;">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;"><a href="" style="text-decoration: none;">SAMSUNG Galaxy
+              F13 (Champion Gold, 64 GB)</a>
+            <br><span
+              style="background-color: rgb(12, 122, 12); border-radius: 2px; padding:0 5px; font-size: 13px; color: white;">4.6
+              <i class="fa-solid fa-star fa-xs" style="color: #fcfcfc;"></i></span><span
+              style="color: rgb(71, 71, 71);">(7,399)</span> <br>
+            ₹10,999 <span style="color:rgb(71, 71, 71); text-decoration: line-through;">₹12,9991</span><span
+              style="color: green;"> 5% off</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="card"
+        style="width: 14rem; display: flex; justify-content: center; align-items: center; position: relative; ">
+        <div style="position: absolute; right: 10px; top: 0px;"> <i class="fa-regular fa-heart"></i></div>
+        <img src="./images/galaxy-f34-5g-sm-e346bzgdins-samsung-original-imags5bxpvt2rh7gs3.webp"
+          class="card-img-top mt-2" alt="..." style="height:150px; width: 5rem;">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;"><a href="" style="text-decoration: none;">SAMSUNG Galaxy
+              F54 5G (Champion Gold, 64 GB)</a>
+            <br><span
+              style="background-color: rgb(12, 122, 12); border-radius: 2px; padding:0 5px; font-size: 13px; color: white;">4.6
+              <i class="fa-solid fa-star fa-xs" style="color: #fcfcfc;"></i></span><span
+              style="color: rgb(71, 71, 71);">(7,399)</span> <br>
+            ₹10,999 <span style="color:rgb(71, 71, 71); text-decoration: line-through;">₹12,9991</span><span
+              style="color: green;"> 5% off</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="card"
+        style="width: 14rem; display: flex; justify-content: center; align-items: center; position: relative;  ">
+        <div style="position: absolute; right: 10px; top: 0px;"> <i class="fa-regular fa-heart"></i></div>
+        <img src="./images/galaxy-f54-5g-sm-e546bzshins-samsung-original-imagq79f82pfyzvhs1.webp"
+          class="card-img-top mt-2" alt="..." style="height:150px; width: 8rem;">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;"><a href="" style="text-decoration: none;">SAMSUNG Galaxy
+              (Champion Gold, 64 GB)</a>
+            <br><span
+              style="background-color: rgb(12, 122, 12); border-radius: 2px; padding:0 5px; font-size: 13px; color: white;">4.6
+              <i class="fa-solid fa-star fa-xs" style="color: #fcfcfc;"></i></span><span
+              style="color: rgb(71, 71, 71);">(7,399)</span> <br>
+            ₹10,999 <span style="color:rgb(71, 71, 71); text-decoration: line-through;">₹12,9991</span><span
+              style="color: green;"> 5% off</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="card"
+        style="width: 14rem; display: flex; justify-content: center; align-items: center; position: relative;  ">
+        <div style="position: absolute; right: 10px; top: 0px;"> <i class="fa-regular fa-heart"></i></div>
+        <img src="./images/-original-imagfhu75eupxyfts2.webp" class="card-img-top mt-2" alt="..."
+          style="height:150px; width: 8rem;">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;"><a href="" style="text-decoration: none;">SAMSUNG Galaxy
+              F(Champion Gold, 64 GB)</a>
+            <br><span
+              style="background-color: rgb(12, 122, 12); border-radius: 2px; padding:0 5px; font-size: 13px; color: white;">4.6
+              <i class="fa-solid fa-star fa-xs" style="color: #fcfcfc;"></i></span><span
+              style="color: rgb(71, 71, 71);">(7,399)</span> <br>
+            ₹10,999 <span style="color:rgb(71, 71, 71); text-decoration: line-through;">₹12,9991</span><span
+              style="color: green;"> 5% off</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="card" id="hii"
+        style="width: 14rem; display: flex; justify-content: center; align-items: center; position: relative; border: 0;  ">
+        <div style="position: absolute; right: 10px; top: 0px;"> <i class="fa-regular fa-heart"></i></div>
+        <img src="./images/-original-imagfhu6dcpdnqkhs5.webp" class="card-img-top mt-2" alt="..."
+          style="height:150px; width: 8rem;">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;"><a href="" style="text-decoration: none;">SAMSUNG Galaxy
+              (Champion Gold, 64 GB)</a>
+            <br><span
+              style="background-color: rgb(12, 122, 12); border-radius: 2px; padding:0 5px; font-size: 13px; color: white;">4.6
+              <i class="fa-solid fa-star fa-xs" style="color: #fcfcfc;"></i></span><span
+              style="color: rgb(71, 71, 71);">(7,399)</span> <br>
+            ₹10,999 <span style="color:rgb(71, 71, 71); text-decoration: line-through;">₹12,9991</span><span
+              style="color: green;"> 5% off</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="card"
+        style="width: 14rem; display: flex; justify-content: center; align-items: center; position: relative;  ">
+        <div style="position: absolute; right: 10px; top: 0px;"> <i class="fa-regular fa-heart"></i></div>
+        <img src="./images/-original-imagcg22czc3ggvws6.webp" class="card-img-top mt-2" alt="..."
+          style="height:150px; width: 8rem;">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;"><a href="" style="text-decoration: none;">SAMSUNG Galaxy
+              (Champion Gold, 64 GB)</a>
+            <br><span
+              style="background-color: rgb(12, 122, 12); border-radius: 2px; padding:0 5px; font-size: 13px; color: white;">4.6
+              <i class="fa-solid fa-star fa-xs" style="color: #fcfcfc;"></i></span><span
+              style="color: rgb(71, 71, 71);">(7,399)</span> <br>
+            ₹10,999 <span style="color:rgb(71, 71, 71); text-decoration: line-through;">₹12,9991</span><span
+              style="color: green;"> 5% off</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" style="height: 80px;">
+    <div class="col-6 ps-4" style="display: flex; justify-content: start ; align-items: center;">
+      <h3 style="font-size: 22px;">Apple Smartphones</h3>
+    </div>
+    <div class="col-6 pe-4" style="display: flex; justify-content: end; align-items: center;">
+      <button type="button" class="btn btn-primary " style="width: 100px; border-radius: 2px;">View All</button>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-12 " style="display: flex;">
+
+      <div class="card" id="card"
+        style="width: 14rem; display: flex; justify-content: center; align-items: center; position: relative;  ">
+        <div style="position: absolute; right: 10px; top: 0px;"> <i class="fa-regular fa-heart"></i></div>
+        <img src="./images/-original-imaghxemnnnkd8bgA1.webp" class="card-img-top mt-2" alt="..."
+          style="height:150px; width: 8rem;">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;"><a href="" style="text-decoration: none;">APPLE iPhone
+              (Champion Gold, 64 GB)</a>
+            <br><span
+              style="background-color: rgb(12, 122, 12); border-radius: 2px; padding:0 5px; font-size: 13px; color: white;">4.6
+              <i class="fa-solid fa-star fa-xs" style="color: #fcfcfc;"></i></span><span
+              style="color: rgb(71, 71, 71);">(7,399)</span> <br>
+            ₹10,999 <span style="color:rgb(71, 71, 71); text-decoration: line-through;">₹12,9991</span><span
+              style="color: green;"> 5% off</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="card"
+        style="width: 14rem; display: flex; justify-content: center; align-items: center; position: relative; ">
+        <div style="position: absolute; right: 10px; top: 0px;"> <i class="fa-regular fa-heart"></i></div>
+        <img src="./images/-original-imaghxejqvpwfqh2A2.webp" class="card-img-top mt-2" alt="..."
+          style="height:150px; width: 8rem;">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;"><a href="" style="text-decoration: none;">APPLE
+              iPhone(Champion Gold, 64 GB)</a>
+            <br><span
+              style="background-color: rgb(12, 122, 12); border-radius: 2px; padding:0 5px; font-size: 13px; color: white;">4.6
+              <i class="fa-solid fa-star fa-xs" style="color: #fcfcfc;"></i></span><span
+              style="color: rgb(71, 71, 71);">(7,399)</span> <br>
+            ₹10,999 <span style="color:rgb(71, 71, 71); text-decoration: line-through;">₹12,9991</span><span
+              style="color: green;"> 5% off</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="card"
+        style="width: 14rem; display: flex; justify-content: center; align-items: center; position: relative;  ">
+        <div style="position: absolute; right: 10px; top: 0px;"> <i class="fa-regular fa-heart"></i></div>
+        <img src="./images/A4.webp" class="card-img-top mt-2" alt="..." style="height:150px; width: 8rem;">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;"><a href="" style="text-decoration: none;">APPLE
+              iPhone(Champion Gold, 64 GB)</a>
+            <br><span
+              style="background-color: rgb(12, 122, 12); border-radius: 2px; padding:0 5px; font-size: 13px; color: white;">4.6
+              <i class="fa-solid fa-star fa-xs" style="color: #fcfcfc;"></i></span><span
+              style="color: rgb(71, 71, 71);">(7,399)</span> <br>
+            ₹10,999 <span style="color:rgb(71, 71, 71); text-decoration: line-through;">₹12,9991</span><span
+              style="color: green;"> 5% off</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="card"
+        style="width: 14rem; display: flex; justify-content: center; align-items: center; position: relative;  ">
+        <div style="position: absolute; right: 10px; top: 0px;"> <i class="fa-regular fa-heart"></i></div>
+        <img src="./images/A5.webp" class="card-img-top mt-2" alt="..." style="height:150px; width: 8rem;">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;"><a href="" style="text-decoration: none;">APPLE
+              iPhone(Champion Gold, 64 GB)</a>
+            <br><span
+              style="background-color: rgb(12, 122, 12); border-radius: 2px; padding:0 5px; font-size: 13px; color: white;">4.6
+              <i class="fa-solid fa-star fa-xs" style="color: #fcfcfc;"></i></span><span
+              style="color: rgb(71, 71, 71);">(7,399)</span> <br>
+            ₹10,999 <span style="color:rgb(71, 71, 71); text-decoration: line-through;">₹12,9991</span><span
+              style="color: green;"> 5% off</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="card" id="hii"
+        style="width: 14rem; display: flex; justify-content: center; align-items: center; position: relative; border: 0;  ">
+        <div style="position: absolute; right: 10px; top: 0px;"> <i class="fa-regular fa-heart"></i></div>
+        <img src="./images/A6.webp" class="card-img-top mt-2" alt="..." style="height:150px; width: 8rem;">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;"><a href="" style="text-decoration: none;">APPLE iPhone
+              (Champion Gold, 64 GB)</a>
+            <br><span
+              style="background-color: rgb(12, 122, 12); border-radius: 2px; padding:0 5px; font-size: 13px; color: white;">4.6
+              <i class="fa-solid fa-star fa-xs" style="color: #fcfcfc;"></i></span><span
+              style="color: rgb(71, 71, 71);">(7,399)</span> <br>
+            ₹10,999 <span style="color:rgb(71, 71, 71); text-decoration: line-through;">₹12,9991</span><span
+              style="color: green;"> 5% off</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="card"
+        style="width: 14rem; display: flex; justify-content: center; align-items: center; position: relative;  ">
+        <div style="position: absolute; right: 10px; top: 0px;"> <i class="fa-regular fa-heart"></i></div>
+        <img src="./images/iphone-13-mlpk3hn-a-apple-original-imag6vpyur6hjnggA3.webp" class="card-img-top mt-2"
+          alt="..." style="height:150px; width: 8rem;">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;"><a href="" style="text-decoration: none;">APPLE iPhone
+              (Champion Gold, 64 GB)</a>
+            <br><span
+              style="background-color: rgb(12, 122, 12); border-radius: 2px; padding:0 5px; font-size: 13px; color: white;">4.6
+              <i class="fa-solid fa-star fa-xs" style="color: #fcfcfc;"></i></span><span
+              style="color: rgb(71, 71, 71);">(7,399)</span> <br>
+            ₹10,999 <span style="color:rgb(71, 71, 71); text-decoration: line-through;">₹12,9991</span><span
+              style="color: green;"> 5% off</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" style="height: 80px;">
+    <div class="col-6 ps-4" style="display: flex; justify-content: start ; align-items: center;">
+      <h3 style="font-size: 22px;">Redmi smartphones</h3>
+    </div>
+    <div class="col-6 pe-4" style="display: flex; justify-content: end; align-items: center;">
+      <button type="button" class="btn btn-primary " style="width: 100px; border-radius: 2px;">View All</button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 " style="display: flex;">
+
+      <div class="card" id="card"
+        style="width: 14rem; display: flex; justify-content: center; align-items: center; position: relative;  ">
+        <div style="position: absolute; right: 10px; top: 0px;"> <i class="fa-regular fa-heart"></i></div>
+        <img src="./images/R1.webp" class="card-img-top mt-2" alt="..." style="height:150px; width: 8rem;">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;"><a href="" style="text-decoration: none;">REDMI (Champion
+              Gold, 64 GB)</a>
+            <br><span
+              style="background-color: rgb(12, 122, 12); border-radius: 2px; padding:0 5px; font-size: 13px; color: white;">4.6
+              <i class="fa-solid fa-star fa-xs" style="color: #fcfcfc;"></i></span><span
+              style="color: rgb(71, 71, 71);">(7,399)</span> <br>
+            ₹10,999 <span style="color:rgb(71, 71, 71); text-decoration: line-through;">₹12,9991</span><span
+              style="color: green;"> 5% off</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="card"
+        style="width: 14rem; display: flex; justify-content: center; align-items: center; position: relative; ">
+        <div style="position: absolute; right: 10px; top: 0px;"> <i class="fa-regular fa-heart"></i></div>
+        <img src="./images/R2.webp" class="card-img-top mt-2" alt="..." style="height:150px; width: 8rem;">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;"><a href="" style="text-decoration: none;">REDMI
+              (Champion Gold, 64 GB)</a>
+            <br><span
+              style="background-color: rgb(12, 122, 12); border-radius: 2px; padding:0 5px; font-size: 13px; color: white;">4.6
+              <i class="fa-solid fa-star fa-xs" style="color: #fcfcfc;"></i></span><span
+              style="color: rgb(71, 71, 71);">(7,399)</span> <br>
+            ₹10,999 <span style="color:rgb(71, 71, 71); text-decoration: line-through;">₹12,9991</span><span
+              style="color: green;"> 5% off</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="card"
+        style="width: 14rem; display: flex; justify-content: center; align-items: center; position: relative;  ">
+        <div style="position: absolute; right: 10px; top: 0px;"> <i class="fa-regular fa-heart"></i></div>
+        <img src="./images/R3.webp" class="card-img-top mt-2" alt="..." style="height:150px; width: 8rem;">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;"><a href="" style="text-decoration: none;">REDMI
+              (Champion Gold, 64 GB)</a>
+            <br><span
+              style="background-color: rgb(12, 122, 12); border-radius: 2px; padding:0 5px; font-size: 13px; color: white;">4.6
+              <i class="fa-solid fa-star fa-xs" style="color: #fcfcfc;"></i></span><span
+              style="color: rgb(71, 71, 71);">(7,399)</span> <br>
+            ₹10,999 <span style="color:rgb(71, 71, 71); text-decoration: line-through;">₹12,9991</span><span
+              style="color: green;"> 5% off</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="card"
+        style="width: 14rem; display: flex; justify-content: center; align-items: center; position: relative;  ">
+        <div style="position: absolute; right: 10px; top: 0px;"> <i class="fa-regular fa-heart"></i></div>
+        <img src="./images/R5.webp" class="card-img-top mt-2" alt="..." style="height:150px; width: 8rem;">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;"><a href="" style="text-decoration: none;">REDMI (Champion
+              Gold, 64 GB)</a>
+            <br><span
+              style="background-color: rgb(12, 122, 12); border-radius: 2px; padding:0 5px; font-size: 13px; color: white;">4.6
+              <i class="fa-solid fa-star fa-xs" style="color: #fcfcfc;"></i></span><span
+              style="color: rgb(71, 71, 71);">(7,399)</span> <br>
+            ₹10,999 <span style="color:rgb(71, 71, 71); text-decoration: line-through;">₹12,9991</span><span
+              style="color: green;"> 5% off</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="card" id="hii"
+        style="width: 14rem; display: flex; justify-content: center; align-items: center; position: relative; border: 0;  ">
+        <div style="position: absolute; right: 10px; top: 0px;"> <i class="fa-regular fa-heart"></i></div>
+        <img src="./images/R6.webp" class="card-img-top mt-2" alt="..." style="height:150px; width: 8rem;">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;"><a href="" style="text-decoration: none;">REDMI (Champion
+              Gold, 64 GB)</a>
+            <br><span
+              style="background-color: rgb(12, 122, 12); border-radius: 2px; padding:0 5px; font-size: 13px; color: white;">4.6
+              <i class="fa-solid fa-star fa-xs" style="color: #fcfcfc;"></i></span><span
+              style="color: rgb(71, 71, 71);">(7,399)</span> <br>
+            ₹10,999 <span style="color:rgb(71, 71, 71); text-decoration: line-through;">₹12,9991</span><span
+              style="color: green;"> 5% off</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="card"
+        style="width: 14rem; display: flex; justify-content: center; align-items: center; position: relative;  ">
+        <div style="position: absolute; right: 10px; top: 0px;"> <i class="fa-regular fa-heart"></i></div>
+        <img src="./images/R3.webp" class="card-img-top mt-2" alt="..." style="height:150px; width: 8rem;">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;"><a href="" style="text-decoration: none;">REDMI (Champion
+              Gold, 64 GB)</a>
+            <br><span
+              style="background-color: rgb(12, 122, 12); border-radius: 2px; padding:0 5px; font-size: 13px; color: white;">4.6
+              <i class="fa-solid fa-star fa-xs" style="color: #fcfcfc;"></i></span><span
+              style="color: rgb(71, 71, 71);">(7,399)</span> <br>
+            ₹10,999 <span style="color:rgb(71, 71, 71); text-decoration: line-through;">₹12,9991</span><span
+              style="color: green;"> 5% off</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+  <footer>
+    <div class="container-fluid " style="background-color: #172337; color: white;">
+      <div class="row">
+        <p>
+        <div class="col-7  p-5 "
+          style="font-size: 13px; text-align: justify; display: flex; justify-content: space-around; line-height: 5px;">
+          <div>
+            <h6 class="footer-h6">ABOUT</h6><br>
+            <a class="about-con" href="" ><p>Contact Us</p></a>
+            <a class="about-con" href="" ><p>About Us</p></a>
+            <a class="about-con" href="" ><p>Careers</p></a>
+            <a class="about-con" href="" ><p>Flipkart Stories</p></a>
+            <a class="about-con" href="" ><p>Press</p></a>
+            <a class="about-con" href="" ><p>Flipkart Wholesale</p></a>
+            <a class="about-con" href="" ><p>Corporate Information</p></a>
+             </div>
+
+
+
+          <div>
+            <h6 class="footer-h6">HELP</h6><br>
+            <a class="about-con" href="" ><p>Payments</p></a>
+            <a class="about-con" href="" ><p>Shipping</p></a>
+            <a class="about-con" href="" ><p>Cancellation & Returns</p></a>
+            <a class="about-con" href="" ><p> FAQ</p></a>
+
+          </div>
+
+          <div>
+            <h6 class="footer-h6">CONSUMER POLICY</h6><br>
+            <a class="about-con" href="" ><p>Contact Us</p></a>
+            <a class="about-con" href="" ><p>About Us</p></a>
+            <a class="about-con" href="" ><p>Careers</p></a>
+            <a class="about-con" href="" ><p>Flipkart Stories</p></a>
+            <a class="about-con" href="" ><p>Press</p></a>
+
+          </div>
+
+
+          <div>
+            <h6 class="footer-h6">SOCIAL</h6><br>
+            <a class="about-con" href="" ><p>Contact Us</p></a>
+            <a class="about-con" href="" ><p>About Us</p></a>
+            <a class="about-con" href="" ><p>Careers</p></a>
+          </div>
+
+
+        </div>
+        <div class="col-5  p-5  "
+          style="font-size: 13px; text-align: justify; display: flex; justify-content: space-around;">
+
+          <div style="border-left: 1px solid #555454; height: 160px; width: 200px; padding-left: 15px;">
+            <h6 class="footer-h6"> Mail Us:</h6>
+            <p style="text-align: start;">Flipkart Internet Private Limited,
+
+              Buildings Alyssa, Begonia &
+
+              Clove Embassy Tech Village,
+
+              Outer Ring Road, Devarabeesanahalli Village,
+
+              Bengaluru, 560103,
+
+              Karnataka, India</p>
+
+
+          </div>
+
+
+          <div style="width: 200px;">
+            <h6 class="footer-h6">Registered Office Address:</h6>
+            <p style="text-align: start;">Flipkart Internet Private Limited,
+
+              Buildings Alyssa, Begonia &
+
+              Clove Embassy Tech Village,
+
+              Outer Ring Road, Devarabeesanahalli Village,
+
+              Bengaluru, 560103,
+
+              Karnataka, India
+
+              CIN : U51109KA2012PTC066107
+
+              Telephone: <a href="" style="text-decoration: none;">044-45614700</a></p>
+
+          </div>
+        </div>
+        </p>
+      </div>
+
+      <div class="row p-3" style="border-top: 1px solid #555454;  height: 60px;">
+        <div class="col-8 " style="display: flex; justify-content: space-around;  ">
+          <p><i class="fa-solid fa-bag-shopping" style="color: #e8cc17;"></i> Become a Seller</p>
+          <p><i class="fa-solid fa-star" style="color: #e8cc17;"></i> Advertise</p>
+          <p><i class="fa-solid fa-gift" style="color: #e8cc17;"></i> Gift Cards</p>
+          <p><i class="fa-solid fa-question" style="color: #e8cc17;"></i> Help Center</p>
+          <p>© 2007-2023 Flipkart.com</p>
+        </div>
+        <div class="col-4 pe-4">
+          <div><img src="./images/c1.svg" alt=""></div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
